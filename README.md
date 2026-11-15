@@ -1,19 +1,32 @@
-# Web Application using AWS Elastic Beanstalk
+# FCTUC-ES 2024/2025
 
-This project involves setting up a web application using AWS Elastic Beanstalk (EB) for deployment, Amazon RDS for database management, and AWS Rekognition for facial recognition. The application includes user management, loan processing, and interview scheduling functionalities.
+Project made for 2024/2025 edition of Service Engineering course
 
-⚠️ Warning: This project is not runnable as-is since the workflows, step functions, and Lambda functions were not saved. Additional configuration and implementation are required to make the application fully operational.
+## Summary 
 
-Authors
-- Filipe Obrist
-- Emanuel Pacheco
-- Ivo Simões
+**Theme**: Web Application using AWS Elastic Beanstalk
 
-## Project Context
+**Objective**: This project involves setting up a web application using AWS Elastic Beanstalk (EB) for deployment, Amazon RDS for database management, and AWS Rekognition for facial recognition. The application includes user management, loan processing, and interview scheduling functionalities.
 
-This project was developed for the Service Engineering course, focusing on designing and deploying scalable and reliable web services using cloud technologies. The application integrates multiple AWS services to demonstrate end-to-end functionality, including database management, facial recognition, and serverless computing.
+## Group
+- Filipe Obrist (uc2024170686)
+- Ivo Simões (uc2024160048)
+- Emanuel Pacheco (uc2024138898)
+
+## Repository Structure
+
+```text
+├── diabetes_prediction_dataset.csv     # Core backend and project code to compile the app
+├── frontend                            # Source files related to the web app frontend
+├── imagens_recog                       # Add images and testing for the facial recognition service
+└── README.md                           # Project details
+```
+
+*Credit: The following instructions were provided by another author (Emanuel Pacheco), who also compiled and made [this cleaner version](https://github.com/MrBrodinha/ES_2425) of the final project*
 
 ## Setup Instructions
+
+⚠️ Warning: This project is not runnable as-is since the workflows, step functions, and Lambda functions were not saved. Additional configuration and implementation are required to make the application fully operational.
 
 ### 1. Environment Setup
 1. **Clone the repository**:
